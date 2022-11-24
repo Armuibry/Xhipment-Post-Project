@@ -1,0 +1,88 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.home .profile {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.profile img{
+    width: 80%;
+    object-fit: contain;
+    border-right: 1px solid red;
+}
+
+.profile h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(62, 74, 241);
+    text-align: center;
+    margin: auto;
+}
+
+.home .allpost {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+}
+
+button {
+    border-radius: 25px;
+    border: 1px solid grey;
+    padding: 7px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+.showpost {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.single_post {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 1px solid grey;
+    height: 250px;
+    overflow-y: hidden;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.single_post h3 {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.single_post .post-div {
+    width: 90%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    height: 60%;
+}
